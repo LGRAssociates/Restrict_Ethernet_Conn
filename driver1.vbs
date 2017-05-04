@@ -33,7 +33,7 @@ For Each objAdapter In colAdapters
 						objOs.Win32Shutdown(1)
 					NEXT
 					Exit Do
-					Wscript.echo "AETV IPAddress Starts With " & ipFirstTwoSections
+					'Wscript.echo "Unwanted network IP Address Starts With " & ipFirstTwoSections
 			End Select
 			Exit For
 		End If 
